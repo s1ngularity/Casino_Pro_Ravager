@@ -2,14 +2,19 @@
 //  main.cpp
 //  Casino_Pro_Ravager
 //
-//  Created by Alex Vaskov on 12.02.17.
-//  Copyright © 2017 AV_Tests. All rights reserved.
+//  Created by Alex&Alex on __.010.10010 (d_ta c_rrupt_d)
 //
 
 #include <iostream>
+#include "game_model.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    for (double percent = 0.51; percent < 0.61; percent += 0.01) {
+        GameModel modelX(100, percent);
+        modelX.GameOn();
+        cout << endl;
+    }
+    
+    
     return 0;
 }

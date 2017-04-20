@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		0B4ED0F81E5091C7003E7F85 /* Casino_Pro_Ravager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Casino_Pro_Ravager; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B4ED0FB1E5091C7003E7F85 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0B4ED1021E509272003E7F85 /* game_model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = game_model.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				0B4ED0FB1E5091C7003E7F85 /* main.cpp */,
+				0B4ED1021E509272003E7F85 /* game_model.h */,
 			);
 			path = Casino_Pro_Ravager;
 			sourceTree = "<group>";
